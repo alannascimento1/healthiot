@@ -1,0 +1,34 @@
+cd /home/alan/APP-WEB-HYPERLEDGER-FABRIC/healhtiot/rede/
+sudo ./startFabric.sh javascript
+sara159951
+
+PAROU BEM AQUI
+
+cd /home/alan/Documentos/ic/node-mcu/fiware/tutorials.IoT-over-MQTT
+sudo ./services create;sudo ./services start;
+sara159951
+cd /home/alan/APP-WEB-HYPERLEDGER-FABRIC/healhtiot/server
+rm -R wallet/
+node enrollAdmin.js
+node registerUser.js
+cd src/
+node app.js
+
+
+NEWTERMINAL
+cd /home/alan/Documentos/ic/node-mcu/
+./ngrok http 8081
+
+
+NEWTERMINAL
+cd /home/alan/APP-WEB-HYPERLEDGER-FABRIC/healhtiot/healthiot
+npm run serve
+
+
+ABRE O POSTMAN FAZ AS REQUISICOES
+(atualiza o subscription e o POSTMAN)
+
+ABRE O FIREFOX
+
+ATUALIZA O api.js
+gnome-terminal & disown
