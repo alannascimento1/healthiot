@@ -5,7 +5,7 @@ PAROU BEM AQUI
 
 cd /home/alan/Documentos/ic/node-mcu/fiware/tutorials.IoT-over-MQTT
 sudo ./services create;sudo ./services start;
-sara159951
+
 cd /home/alan/APP-WEB-HYPERLEDGER-FABRIC/healhtiot/server
 rm -R wallet/
 node enrollAdmin.js
