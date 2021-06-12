@@ -1,6 +1,5 @@
 cd /home/alan/APP-WEB-HYPERLEDGER-FABRIC/healhtiot/rede/
 sudo ./startFabric.sh javascript
-sara159951
 
 PAROU BEM AQUI
 
